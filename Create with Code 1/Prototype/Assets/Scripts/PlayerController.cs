@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,10 +9,14 @@ public class PlayerController : MonoBehaviour
         
     }
     public float speed = 5.0f;
+    public float turnSpeed;
+    public InputAction moveAction;
+
     // Update is called once per frame
     void Update()
     {
         //We'll move the Vehicle forward 
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed);
     }
 }
