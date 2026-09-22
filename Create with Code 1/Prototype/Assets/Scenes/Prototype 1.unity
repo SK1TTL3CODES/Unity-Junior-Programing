@@ -2084,8 +2084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cd12177da8fab44aa2286fb1351ef6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  speed: 10
-  turnSpeed: 0
+  speed: 25
+  turnSpeed: 70
   moveAction:
     m_Name: Move
     m_Type: 0
@@ -2129,6 +2129,46 @@ MonoBehaviour:
     - m_Name: right
       m_Id: d3810453-7e32-4da8-8bd0-2f0ba04ba24e
       m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: 2D Vector
+      m_Id: a66d5d10-1b53-4459-be0b-848a8ce17d1e
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 61da0a97-5fb7-48b0-a849-f79d9ddd13c1
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: f361784d-e477-42c3-8fbd-0c124acde5ed
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: af3e8f2e-11df-41ee-957a-b9a1ae232569
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 8151c33b-ec3d-4472-a450-58503c91f944
+      m_Path: <Keyboard>/rightArrow
       m_Interactions: 
       m_Processors: 
       m_Groups: 
