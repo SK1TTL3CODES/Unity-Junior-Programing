@@ -10,7 +10,7 @@ public class FollowPlayerX : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        offset = new Vector3(0, 5, -6);
+        offset = new Vector3(9, 3, 7);
     }
 
     // Update is called once per frame
