@@ -1459,6 +1459,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       insertIndex: -1
       addedObject: {fileID: 825415036}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2095609436}
   m_SourcePrefab: {fileID: 100100000, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
 --- !u!1 &1295456286
 GameObject:
@@ -2142,6 +2145,24 @@ Transform:
   - {fileID: 1667803327}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2095609432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
+  m_PrefabInstance: {fileID: 1239094319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2095609436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095609432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63dbc1a75a417dd48a1d0daa3049acaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PropellerSpin
+  speed: 3000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
