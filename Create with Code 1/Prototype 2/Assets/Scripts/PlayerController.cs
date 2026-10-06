@@ -3,9 +3,12 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+
     public InputAction moveAction;
     public Vector2 moveInput;
     public float speed = 10.0f;
+
+    public GameObject projecttilePrefab;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
