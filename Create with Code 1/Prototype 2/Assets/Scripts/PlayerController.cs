@@ -33,5 +33,10 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(10, transform.position.y, transform.position.z);
         }
+
+        if(fireAction.triggered)
+        {
+            Debug.Log("FIRED A WINE!");
+        }
     }
 }
