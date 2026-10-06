@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 moveInput;
     public float speed = 10.0f;
 
-    public GameObject projecttilePrefab;
+    public GameObject projectilePrefab;
     public InputAction fireAction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
