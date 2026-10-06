@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         if(fireAction.triggered)
         {
             // Launch a projectile from the player
-            instant(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }
