@@ -36,7 +36,8 @@ public class PlayerController : MonoBehaviour
 
         if(fireAction.triggered)
         {
-            Debug.Log("FIRED A WINE!");
+            // Launch a projectile from the player
+            instant(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }
