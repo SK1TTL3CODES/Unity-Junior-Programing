@@ -9,11 +9,13 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
 
     public GameObject projecttilePrefab;
+    public InputAction fireAction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        moveAction.Enable(); 
+        moveAction.Enable();
+        fireAction.Enable();
     }
 
     // Update is called once per frame
