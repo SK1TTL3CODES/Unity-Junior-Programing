@@ -1049,6 +1049,24 @@ MonoBehaviour:
   - {fileID: 6263723584997711880, guid: f067f67317e4c9149b9e769873b10ab8, type: 3}
   - {fileID: 5190743311276624055, guid: 944ca3de611cd914a9352d1fa3e3d6c0, type: 3}
   - {fileID: 8631075856263752807, guid: 4dedad4685e11b7428232209994b3490, type: 3}
+  spawnAction:
+    m_Name: Spawn
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 85033792-cddf-4511-8051-327620ba84dc
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 89a6a820-f58a-42ec-b3ed-e4816d562490
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Spawn
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1001 &8302737854955822869
 PrefabInstance:
   m_ObjectHideFlags: 0
