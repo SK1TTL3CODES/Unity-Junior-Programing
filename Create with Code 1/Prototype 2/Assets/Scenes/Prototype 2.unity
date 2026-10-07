@@ -835,7 +835,25 @@ MonoBehaviour:
     m_Priority: 0
   moveInput: {x: 0, y: 0}
   speed: 10
-  projecttilePrefab: {fileID: 7682557810634757540, guid: 3d3bb98b99cad2a4c9c7555331aad405, type: 3}
+  projectilePrefab: {fileID: 7682557810634757540, guid: 3d3bb98b99cad2a4c9c7555331aad405, type: 3}
+  fireAction:
+    m_Name: Fire
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 64ec2677-8a49-4f50-9306-e222ae0a2e04
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: a8cd55d1-a4f2-44fc-bef3-c6bc9b0d854d
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Fire
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
