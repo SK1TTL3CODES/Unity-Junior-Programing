@@ -6272,6 +6272,7 @@ GameObject:
   - component: {fileID: 1805618601018964656}
   - component: {fileID: 3586933109427556445}
   - component: {fileID: 4399954305044770987}
+  - component: {fileID: 3520980680271065436}
   m_Layer: 0
   m_Name: Dog_Pug_01
   m_TagString: Untagged
@@ -6399,6 +6400,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09611149, y: 0.21171045, z: 0.2504582}
   m_Center: {x: -0.0020464899, y: 0.08968537, z: 0.027212549}
+--- !u!114 &3520980680271065436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631075856263752807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda41ae342b513f43af8811987e8b9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &8940262371142317119
 GameObject:
   m_ObjectHideFlags: 0
