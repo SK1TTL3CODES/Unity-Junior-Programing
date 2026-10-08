@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7471846303264020234}
   - component: {fileID: 7347225216602627981}
+  - component: {fileID: 1936388297374551319}
   m_Layer: 0
   m_Name: SM_Fox_01
   m_TagString: Untagged
@@ -92,6 +93,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000059604645, y: -0.029301882, z: 0.073896945}
     m_Extent: {x: 0.040517867, y: 0.104077205, z: 0.1580456}
   m_DirtyAABB: 0
+--- !u!65 &1936388297374551319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188093185409563177}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08103573, y: 0.20815443, z: 0.3160912}
+  m_Center: {x: -0.000000059604645, y: -0.029301867, z: 0.073896945}
 --- !u!1 &1315189516646071134
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +862,7 @@ GameObject:
   - component: {fileID: 3894746132715063825}
   - component: {fileID: 7395650343670291849}
   - component: {fileID: 327214917440986032}
+  - component: {fileID: 37423134633328598}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Untagged
@@ -921,6 +944,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6d3ec3ee678df4199aacdc0ed38fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &37423134633328598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6263723584997711880}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0871285, y: 0.20229673, z: 0.31306782}
+  m_Center: {x: 0.0006743461, y: 0.10660048, z: 0.008411217}
 --- !u!1 &6694287393426228993
 GameObject:
   m_ObjectHideFlags: 0

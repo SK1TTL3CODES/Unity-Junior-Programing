@@ -102,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6122228325454293047}
   - component: {fileID: 6291801539171451697}
+  - component: {fileID: 7259079341668646111}
   m_Layer: 0
   m_Name: SM_Moose_Male_01
   m_TagString: Untagged
@@ -184,6 +185,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000014901161, y: 0.045301065, z: 0.16266179}
     m_Extent: {x: 0.10332231, y: 0.2796877, z: 0.26338276}
   m_DirtyAABB: 0
+--- !u!65 &7259079341668646111
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3376778183166791566}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.2066446, y: 0.55937535, z: 0.52676547}
+  m_Center: {x: 0.000000014901159, y: 0.045301042, z: 0.16266164}
 --- !u!1 &3546524741598828916
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +402,7 @@ GameObject:
   - component: {fileID: 5949521163264147052}
   - component: {fileID: 8978479719184322584}
   - component: {fileID: 3887786365123602058}
+  - component: {fileID: 3526470154783890783}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -459,6 +482,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6d3ec3ee678df4199aacdc0ed38fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &3526470154783890783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190743311276624055}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18603738, y: 0.44442385, z: 0.42199135}
+  m_Center: {x: -0.005375667, y: 0.23400624, z: 0.055719852}
 --- !u!1 &6363013945483089475
 GameObject:
   m_ObjectHideFlags: 0

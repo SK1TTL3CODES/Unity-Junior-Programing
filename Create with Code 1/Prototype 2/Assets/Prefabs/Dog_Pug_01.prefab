@@ -3263,6 +3263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7390445656273770264}
   - component: {fileID: 8653729222417744054}
+  - component: {fileID: 7870565005201913136}
   m_Layer: 0
   m_Name: SM_Pug_02
   m_TagString: Untagged
@@ -3389,6 +3390,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000000037252903, y: -0.029901348, z: 0.09297549}
     m_Extent: {x: 0.06285772, y: 0.10347774, z: 0.124632455}
   m_DirtyAABB: 0
+--- !u!65 &7870565005201913136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4357745811279793006}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09462128, y: 0.20891452, z: 0.26082373}
+  m_Center: {x: -0.0021038055, y: 0.09084862, z: -0.0056298734}
 --- !u!1 &4512854636314389346
 GameObject:
   m_ObjectHideFlags: 0
@@ -6249,6 +6271,7 @@ GameObject:
   - component: {fileID: 2276617030164894368}
   - component: {fileID: 1805618601018964656}
   - component: {fileID: 3586933109427556445}
+  - component: {fileID: 4399954305044770987}
   m_Layer: 0
   m_Name: Dog_Pug_01
   m_TagString: Untagged
@@ -6355,6 +6378,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6d3ec3ee678df4199aacdc0ed38fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &4399954305044770987
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631075856263752807}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09611149, y: 0.21171045, z: 0.2504582}
+  m_Center: {x: -0.0020464899, y: 0.08968537, z: 0.027212549}
 --- !u!1 &8940262371142317119
 GameObject:
   m_ObjectHideFlags: 0
