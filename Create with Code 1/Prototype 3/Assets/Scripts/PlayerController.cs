@@ -5,12 +5,14 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
     public InputAction jumpAction;
+    public float jumpForce = 10;
+    public float gravityModifier;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-
+        Physics.gravity *= gravityModifier;
 
         jumpAction.Enable();
     }
@@ -20,7 +22,7 @@ public class PlayerController : MonoBehaviour
     {
         if (jumpAction.triggered)
         {
-            playerRb.AddForce(Vector3.up * 10, ForceMode.Impulse);
+            playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
     }
 }
