@@ -487,6 +487,9 @@ MonoBehaviour:
       m_Flags: 0
     m_Flags: 0
     m_Priority: 0
+  jumpForce: 10
+  gravityModifier: 1
+  isOnGround: 1
 --- !u!1 &835818919
 GameObject:
   m_ObjectHideFlags: 0
